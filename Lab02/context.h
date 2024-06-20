@@ -2,6 +2,7 @@
 #define CONTEXT_H
 
 #define MAX_FILENAME 200
+
 #include <stddef.h>
 #include "list.h"
 
@@ -12,6 +13,7 @@ struct AppContext
     char filename[MAX_FILENAME];
     char region[MAX_REGION_LEN];
     int column;
+
     struct
     {
         double minimum;
